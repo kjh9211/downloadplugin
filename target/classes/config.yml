@@ -1,0 +1,7 @@
+# DownloadPlugin Configuration File
+# 이 파일은 플러그인이 처음 실행될 때 자동으로 생성됩니다.
+# 현재 이 플러그인은 config.yml에서 특정 설정을 읽어오지는 않지만,
+# 향후 설정을 추가할 경우 이 파일을 사용합니다.
+
+# 예시 설정 (현재 사용되지 않음):
+# enable-debug-messages: false

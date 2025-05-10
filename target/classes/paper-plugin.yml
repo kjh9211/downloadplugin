@@ -1,0 +1,27 @@
+name: DownloadPlugin
+version: 1.0.0
+main: com.example.downloadplugin.DownloadPlugin
+api-version: '1.21' # Paper 1.21.4 API 버전에 맞게 설정
+author: YourName
+description: Allows OPs to download files to the server.
+website: yourwebsite.com
+
+# 'commands' 섹션을 제거하거나 주석 처리합니다.
+# commands:
+#   download:
+#     description: Downloads a file to the server or lists downloaded files.
+#     usage: |
+#       /download check
+#       /download at <path> <url>
+#     permission: download.command.download
+#     aliases: [dl]
+permissions:
+  download.command.download:
+    description: Allows usage of the /download command.
+    default: op
+  download.command.check:
+    description: Allows usage of the /download check subcommand.
+    default: op
+  download.command.at:
+    description: Allows usage of the /download at subcommand.
+    default: op
